@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.naijafootyquiz.QuizActivity">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:textAllCaps="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#f7941e"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="8dp"
+        android:maxLength="10"
+        android:backgroundTint="#078653"
+        android:textSize="20sp"
+        android:imeOptions="actionDone"
+        android:id="@+id/edit_Text_Field"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Questions"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#f7941e"
+        android:textAllCaps="true"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Q1"
+        android:layout_marginLeft="8dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <RadioGroup
+        android:id="@+id/radio_q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/option1a"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif"
+            android:text="1925" />
+
+        <RadioButton
+            android:id="@+id/option1b"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif"
+            android:text="1949" />
+
+        <RadioButton
+            android:id="@+id/option1c"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif"
+            android:text="1953" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:background="#078653" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Q2"
+        android:layout_marginLeft="8dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/option2a"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif"
+            android:text="The Tourists" />
+
+        <RadioButton
+            android:id="@+id/option2b"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif"
+            android:text="The Green Eagles" />
+
+        <RadioButton
+            android:id="@+id/option2c"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif"
+            android:text="The Red Devils" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:background="#078653" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="@string/Q3"
+           android:layout_marginLeft="8dp"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+           android:layout_marginTop="10dp"
+           />
+
+       <RadioGroup
+           android:id="@+id/radio_q3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+
+           <RadioButton
+               android:id="@+id/option3a"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="1973 All-Africa Games" />
+
+           <RadioButton
+               android:id="@+id/option3b"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="1980 African Cup of Nations" />
+
+           <RadioButton
+               android:id="@+id/option3c"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="1985  FIFA U-17 World Cup" />
+
+       </RadioGroup>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="3dp"
+           android:layout_marginTop="10dp"
+           android:background="#078653" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/Q4"
+           android:layout_marginLeft="8dp"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+           android:layout_marginTop="10dp"
+           />
+       <RadioGroup
+           android:id="@+id/radio_q4"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+
+           <RadioButton
+               android:id="@+id/option4a"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="Green Ladies" />
+
+           <RadioButton
+               android:id="@+id/option4b"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="Super Falcons" />
+
+           <RadioButton
+               android:id="@+id/option4c"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="Flamingos" />
+
+       </RadioGroup>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="3dp"
+           android:layout_marginTop="10dp"
+           android:background="#078653" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/Q5"
+           android:layout_marginLeft="8dp"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+           android:layout_marginTop="10dp"
+           />
+       <RadioGroup
+           android:id="@+id/radio_q5"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+
+           <RadioButton
+               android:id="@+id/option5a"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="The Dream Team" />
+
+           <RadioButton
+               android:id="@+id/option5b"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="The Golden Team" />
+
+           <RadioButton
+               android:id="@+id/option5c"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="Team Nigeria" />
+
+       </RadioGroup>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="3dp"
+           android:layout_marginTop="10dp"
+           android:background="#078653" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/Q6"
+           android:layout_marginLeft="8dp"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+           android:layout_marginTop="10dp"/>
+
+       <RadioGroup
+           android:id="@+id/radio_q6"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal" >
+
+           <RadioButton
+           android:id="@+id/option6a"
+           android:layout_width="wrap_content"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:drawableRight="@drawable/yekini" />
+
+           <RadioButton
+               android:id="@+id/option6b"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:drawableRight="@drawable/shege" />
+
+           <RadioButton
+               android:id="@+id/option6c"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:drawableRight="@drawable/oba"/>
+
+       </RadioGroup>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="3dp"
+           android:layout_marginTop="10dp"
+           android:background="#078653" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/Q7"
+           android:layout_marginLeft="8dp"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+           android:layout_marginTop="10dp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal">
+
+           <CheckBox
+               android:layout_height="wrap_content"
+               android:layout_width="0dp"
+               android:id="@+id/q7_optionA"
+               android:drawableRight="@drawable/vincent"
+               android:layout_weight="1">
+           </CheckBox>
+
+       <CheckBox
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:id="@+id/q7_optionB"
+       android:drawableRight="@drawable/kanu"
+       android:layout_weight="1">
+       </CheckBox>
+
+       <CheckBox
+       android:layout_height="wrap_content"
+       android:layout_width="0dp"
+       android:id="@+id/q7_optionC"
+       android:drawableRight="@drawable/yobo"
+       android:layout_weight="1">
+       </CheckBox>
+       </LinearLayout>
+
+       <View
+       android:layout_width="match_parent"
+       android:layout_height="3dp"
+       android:layout_marginTop="10dp"
+       android:background="#078653" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="@string/Q8"
+           android:layout_marginLeft="8dp"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+           android:layout_marginTop="10dp"/>
+
+       <RadioGroup
+           android:id="@+id/radio_q8"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal" >
+
+           <RadioButton
+               android:id="@+id/option8a"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="5 Times" />
+
+           <RadioButton
+               android:id="@+id/option8b"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="7 Times" />
+
+           <RadioButton
+               android:id="@+id/option8c"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:textSize="25sp"
+               android:fontFamily="sans-serif"
+               android:text="3 Times" />
+
+       </RadioGroup>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="3dp"
+           android:layout_marginTop="10dp"
+           android:background="#078653" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="@string/Q9"
+           android:layout_marginLeft="8dp"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+           android:layout_marginTop="10dp"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:inputType="textPersonName"
+           android:layout_marginBottom="16dp"
+           android:layout_marginLeft="8dp"
+           android:backgroundTint="#078653"
+           android:imeOptions="actionDone"
+           android:id="@+id/q9_Answer_Field"/>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="3dp"
+           android:layout_marginTop="10dp"
+           android:background="#078653" />
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:text="@string/Q10"
+           android:layout_marginLeft="8dp"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:fontFamily="sans-serif"
+           android:layout_marginTop="10dp"/>
+
+       <RadioGroup
+           android:id="@+id/radio_q10"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal" >
+
+           <RadioButton
+               android:id="@+id/option10a"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:drawableRight="@drawable/christian" />
+
+           <RadioButton
+               android:id="@+id/option10b"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:drawableRight="@drawable/stephen" />
+
+           <RadioButton
+               android:id="@+id/option10c"
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               android:layout_height="wrap_content"
+               android:drawableRight="@drawable/daniel"/>
+
+       </RadioGroup>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="3dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="80dp"
+           android:background="#078653" />
+    </LinearLayout>
+
+       <Button
+           android:id="@+id/submit_button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+           android:text="Submit"
+           android:layout_marginBottom="30dp"
+           android:textSize="40sp"
+           android:onClick="submitQuiz"
+           android:background="#f7941e"
+           android:textColor="#ffffff"/>
+
+   </RelativeLayout>
+
+</ScrollView>

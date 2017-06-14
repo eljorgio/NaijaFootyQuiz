@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.naijafootyquiz.MainActivity">
+
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Start"
+        android:textSize="40sp"
+        android:layout_marginBottom="15dp"
+        android:onClick="launchNewWindow"
+        android:background="#f7941e"
+        android:textColor="#ffffff"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/main_logo"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/appbar_scrolling_view_behavior"/>
+
+</RelativeLayout>

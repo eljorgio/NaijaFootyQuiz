@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Naija Footy Quiz</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <!-- Question 1 text -->
+    <string name="Q1">1.	Nigeria played its first official game while still a British colony in what year? </string>
+    <!-- Question 2 text -->
+    <string name="Q2">2.	Prior to independence, Nigeria\'s national team were known by what nickname?</string>
+    <!-- Question 3 text -->
+    <string name="Q3">3.	The Nigerian national team’s first major success was a first place finish at which event?</string>
+    <!-- Question 4 text -->
+    <string name="Q4">4.	The Nigerian senior women’s team are known by what nickname?</string>
+    <!-- Question 5 text -->
+    <string name="Q5">5.	The successful men’s Olympic football gold medalist team in 1996 were dubbed?</string>
+    <!-- Question 6 text -->
+    <string name="Q6">6.	Who has the record for the most number of goals for the Super Eagles?</string>
+    <!-- Question 7 text -->
+    <string name="Q7">7.	Who has the most caps for the Super Eagles till date?</string>
+    <!-- Question 8 text -->
+    <string name="Q8">8.	The U17 National men’s team (Golden Eaglets) have won the FIFA U17 world cup for a record how many time?</string>
+    <!-- Question 9 text -->
+    <string name="Q9">9.	Who is currently the head coach of the Super Eagles?</string>
+    <!-- Question 10 text -->
+    <string name="Q10">10.	He has won the African cup of nations for Nigeria as both a captain and coach.</string>
+
+</resources>
